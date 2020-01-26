@@ -1,3 +1,18 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "/"
+title = "Drew Hamilton"
+theme = "sam"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "My headline"
+    description = "My description"
+    github = "https://github.com/drewhamilton"
+    twitter = "https://twitter.com/AndroidHamilton"
+    email = "drew.hamilton.0@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
