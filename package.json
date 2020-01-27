@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/drewhamilton/drewhamilton.dev#readme",
   "dependencies": {
+    "autoprefixer": "^9.7.4",
     "postcss-cli": "^7.1.0"
   }
 }
