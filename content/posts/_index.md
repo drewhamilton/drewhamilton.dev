@@ -1,7 +1,7 @@
 ---
-title: "Posts"
-date: 2018-02-13T12:21:57-05:00
+title: "Blog"
+date: 2020-01-26T20:50:00+01:00
 
 ---
 
-Welcome to the blog section! This page uses the default `list.html` template. Write anything you like here. You can set this text with your `_index.md` in the `/content/posts/` folder.
+I haven't written anything yet. 😅
