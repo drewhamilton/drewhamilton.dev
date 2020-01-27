@@ -16,3 +16,6 @@ hugo.linux
 
 ### IDEs ###
 .idea
+
+### NPM ###
+node_modules

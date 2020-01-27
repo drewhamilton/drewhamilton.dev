@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/drewhamilton/drewhamilton.dev/issues"
   },
-  "homepage": "https://github.com/drewhamilton/drewhamilton.dev#readme"
+  "homepage": "https://github.com/drewhamilton/drewhamilton.dev#readme",
+  "dependencies": {
+    "postcss-cli": "^7.1.0"
+  }
 }
