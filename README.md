@@ -21,7 +21,7 @@ hugo serve
 
 ## License
 
-The content of the site (e.g. blog posts, images) is licensed under the
+The content of the site (e.g. blog posts, original images) is licensed under the
 [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) license.
 
 The code powering the site is:

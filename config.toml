@@ -31,3 +31,7 @@ pygmentsCodefences = true
 [[params.mainMenu]]
     text = "Twitter"
     link = "https://twitter.com/AndroidHamilton"
+
+[[params.mainMenu]]
+    text = "About"
+    link = "/about"
