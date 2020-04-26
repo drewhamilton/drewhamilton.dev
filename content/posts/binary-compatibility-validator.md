@@ -1,7 +1,6 @@
 ---
 title: "Monitoring binary compatibility on a pre-stable project"
 date: 2020-04-26T11:35:00+02:00
-showDate: true
 draft: true
 ---
 
