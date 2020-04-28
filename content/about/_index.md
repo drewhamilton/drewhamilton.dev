@@ -3,9 +3,9 @@ title: Drew Hamilton
 
 ---
 
-I live in Amsterdam with my girlfriend Katie.
+I live in Amsterdam with my fiancée Katie.
 
-I've been doing Android since 2014. In 2018 I started at Backbase, and since
+I've been doing Android since 2014. In 2018, I started at Backbase, and since
 then I've gotten really into learning the ins and outs of API/library
 maintenance.
 
