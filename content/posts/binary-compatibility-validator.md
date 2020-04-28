@@ -7,11 +7,13 @@ draft: false
 The open-source Kotlin [binary compatibility
 validator](https://github.com/Kotlin/binary-compatibility-validator) is a great
 tool. When added to a project, it fails the build on any change the public API
-surface. If the API changes are intentional, you fix the build by updating the
-readable summary of the public API in source control. If you maintain a library
-that is consumed as a compiled binary, it is wise to use some form of binary
-compatibility validation, and this is the easiest such tool I know of: It only
-takes about 3 minutes to add it to a project.
+surface. If a public API change is intentional, you fix the build by updating
+the summary of the public API in source control.
+
+If you maintain a library that is consumed as a compiled binary, it is wise to
+use some form of binary compatibility validation, and this is the easiest such
+tool I know of. It takes maybe 3 minutes to add it to a project. And the public
+API summary it produces is easy for a developer to read.
 
 My main project at work for a few months has been a new set of Android
 libraries. They're not stable yet; we aim to stabilize them within a few more
@@ -36,6 +38,7 @@ had let slip by in previous code reviews!
 
 With this binary compatibility validator enabled, I am more confident of two
 things when we approach our stable release date later this year:
+
 1. We won't discover API errors that cause stable release delays at the last
    second: we're catching these things now, instead, with plenty of time to fix
    them.
