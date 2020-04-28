@@ -44,10 +44,14 @@ things when we approach our stable release date later this year:
 
 ---
 
-* The library you ship does not need to be written in Kotlin to use this tool,
-  but the Kotlin plugin does need to be applied to the Gradle module.
-* [The tool](https://github.com/Kotlin/binary-compatibility-validator) is
-  published under the [Apache 2.0
-  license](https://github.com/Kotlin/binary-compatibility-validator/blob/master/LICENSE.TXT).
-* See [this PR](https://github.com/drewhamilton/InlineDimens/pull/21/files?file-filters%5B%5D=.api&file-filters%5B%5D=.gradle)
-  in one of my open-source libraries for an example of how to enable this tool.
+### Notes
+
+The library you ship does not need to be written in Kotlin to use this tool, but
+the Kotlin plugin does need to be applied to the Gradle module.
+
+[The tool](https://github.com/Kotlin/binary-compatibility-validator) is
+published under the [Apache 2.0
+license](https://github.com/Kotlin/binary-compatibility-validator/blob/master/LICENSE.TXT).
+
+See [this PR](https://github.com/drewhamilton/InlineDimens/pull/21/files?file-filters%5B%5D=.api&file-filters%5B%5D=.gradle)
+in one of my open-source libraries for an example of how to enable this tool.
