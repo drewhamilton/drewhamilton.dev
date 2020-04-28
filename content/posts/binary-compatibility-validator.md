@@ -1,7 +1,7 @@
 ---
 title: "Monitoring binary compatibility on a pre-stable project"
-date: 2020-04-28T11:30:00+02:00
-draft: true
+date: 2020-04-28T12:00:00+02:00
+draft: false
 ---
 
 The open-source Kotlin [binary compatibility
