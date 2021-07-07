@@ -1,6 +1,6 @@
 # drewhamilton.dev
 
-Blog posts, links, etc.
+Blog posts by me.
 
 ## About
 
