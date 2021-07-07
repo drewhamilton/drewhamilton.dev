@@ -5,18 +5,23 @@ Blog posts by me.
 ## About
 
 This site is created using [Hugo](https://gohugo.io/). It is themed with
-[Sam](https://github.com/victoriadrake/hugo-theme-sam).
+[Notepadium](https://themes.gohugo.io/themes/hugo-notepadium/).
 
 ### Development
 
 To run the site locally, first install Hugo:
-```shell script
+```bash
 brew install hugo
 ```
 
 And then run it from this project's top-level directory:
-```shell script
+```bash
 hugo serve
+```
+
+To update dependencies:
+```bash
+npm update
 ```
 
 ## License
