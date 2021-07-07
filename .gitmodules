@@ -1,3 +1,3 @@
-[submodule "themes/sam"]
-	path = themes/sam
-	url = https://github.com/victoriadrake/hugo-theme-sam.git
+[submodule "themes/hugo-notepadium"]
+	path = themes/hugo-notepadium
+	url = https://github.com/cntrump/hugo-notepadium.git
