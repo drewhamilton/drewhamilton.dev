@@ -1,11 +1,11 @@
 ---
 title: "How Poko works"
-date: 2021-07-19T09:30:00+02:00
+date: 2021-08-12T13:25:00+02:00
 draft: false
 ---
 
 The Kotlin compiler's job is to convert source code into byte code. Compiler plugins like [Poko](https://github.com/drewhamilton/Poko)
-are able to "intercept" a representation of the source code during compilation and affect the
+are able to intercept a representation of the source code during compilation and affect the
 produced byte code. To this end, Poko's purpose is fairly straightforward: for any source class with
 the `@Poko` annotation, produce byte code that uses that class's primary constructor properties in
 three overridden functions.
@@ -35,8 +35,8 @@ constructor properties and uses those properties to override that function.
 
 This approach fundamentally depends on every class already having these three functions by
 default—it only intercepts the byte code generation after the compiler is already creating that
-function. Functions inside [`PokoMembersTransformer`](https://github.com/drewhamilton/Poko/blob/main/poko-compiler-plugin/src/main/kotlin/dev/drewhamilton/poko/ir/PokoMembersTransformer.kt),
-like `generateToStringMethodBody`, are used to generate each function by calling Kotlin compiler
+function. Code inside [`PokoMembersTransformer`](https://github.com/drewhamilton/Poko/blob/main/poko-compiler-plugin/src/main/kotlin/dev/drewhamilton/poko/ir/PokoMembersTransformer.kt),
+like `generateToStringMethodBody`, is used to generate each function by calling Kotlin compiler
 APIs that represent IR byte code constructs.
 
 ### Non-IR function generation
