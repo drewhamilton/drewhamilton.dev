@@ -1,7 +1,7 @@
 baseURL = "https://drewhamilton.dev/"
 title = "Drew Hamilton"
 theme = "hugo-notepadium"
-copyright = "©2020-2021 Drew Hamilton"
+copyright = "©2020-2023 Drew Hamilton"
 
 languageCode = "en-us"
 defaultContentLanguage = "en"
@@ -24,5 +24,9 @@ pygmentsCodefences = true
     url = "https://github.com/drewhamilton"
 
 [[params.nav.custom]]
-    title = "Twitter"
+    title = "X"
     url = "https://twitter.com/AndroidHamilton"
+
+[[params.nav.custom]]
+    title = "Mastodon"
+    url = "https://androiddev.social/@drew"
