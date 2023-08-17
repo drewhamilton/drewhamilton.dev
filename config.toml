@@ -24,5 +24,9 @@ pygmentsCodefences = true
     url = "https://github.com/drewhamilton"
 
 [[params.nav.custom]]
-    title = "Twitter"
+    title = "X"
     url = "https://twitter.com/AndroidHamilton"
+
+[[params.nav.custom]]
+    title = "Mastodon"
+    url = "https://androiddev.social/@drew"
