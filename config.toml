@@ -1,7 +1,7 @@
 baseURL = "https://drewhamilton.dev/"
 title = "Drew Hamilton"
 theme = "hugo-notepadium"
-copyright = "©2020-2021 Drew Hamilton"
+copyright = "©2020-2023 Drew Hamilton"
 
 languageCode = "en-us"
 defaultContentLanguage = "en"
