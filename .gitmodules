@@ -1,4 +1,4 @@
 [submodule "themes/hugo-notepadium"]
 	path = themes/hugo-notepadium
 	url = git@github.com:drewhamilton/hugo-notepadium.git
-	branch = drew/external-post-urls
+	branch = master
