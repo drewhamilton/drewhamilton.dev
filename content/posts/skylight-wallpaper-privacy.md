@@ -1,6 +1,6 @@
 ---
 title: "Skylight Wallpaper privacy notice"
-date: 2022-06-16T16:40:00-07:00
+date: 2023-11-27T13:30:00-08:00
 draft: false
 _build:
   list: never
