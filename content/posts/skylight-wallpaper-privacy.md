@@ -6,4 +6,6 @@ _build:
   list: never
 ---
 
-Skylight Wallpaper does not collect or transmit user data in any way. 
+Skylight Wallpaper, developed by Drew Hamilton, uses location data to schedule wallpaper changes,
+and may temporarily log this location data on the device. It does not transmit this location data,
+nor any other user data, to any party, in any way. 
