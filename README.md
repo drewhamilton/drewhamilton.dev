@@ -19,7 +19,9 @@ And then run it from this project's top-level directory:
 hugo serve
 ```
 
-To update dependencies:
+To update dependencies, , update the Node version in `.nvmrc` and the Hugo version in
+`netlify.toml`. Then run the following command:
+
 ```bash
 npm update
 ```
