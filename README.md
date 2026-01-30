@@ -19,10 +19,13 @@ And then run it from this project's top-level directory:
 hugo serve
 ```
 
-To update dependencies, , update the Node version in `.nvmrc` and the Hugo version in
-`netlify.toml`. Then run the following command:
+### Update dependencies
 
 ```bash
+brew update
+brew upgrade
+node -v > .nvmrc
+hugo version # Copy x.y.z portion into netlify.toml
 npm update
 ```
 
@@ -33,7 +36,7 @@ The content of the site (e.g. blog posts, original images) is licensed under the
 
 The code powering the site is:
 ```
-Copyright 2020 Drew Hamilton
+Copyright 2020–2026 Drew Hamilton
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
