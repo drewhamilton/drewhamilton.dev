@@ -1,5 +1,5 @@
 ---
-title: "`AndroidDateTimeFormatters` 3.0"
+title: "AndroidDateTimeFormatters 3.0"
 date: 2026-02-01T16:35:00-06:00
 draft: false
 ---
