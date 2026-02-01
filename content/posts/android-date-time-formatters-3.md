@@ -1,7 +1,7 @@
 ---
 title: "`AndroidDateTimeFormatters` 3.0"
-date: 2026-02-01T17:00:00-06:00
-draft: true
+date: 2026-02-01T16:35:00-06:00
+draft: false
 ---
 
 [`AndroidDateTimeFormatters`](https://github.com/drewhamilton/AndroidDateTimeFormatters)
@@ -38,7 +38,8 @@ preference, like the desugared version used to do back when I first published
 
 So `AndroidDateTimeFormatters` is still useful after all, but only when
 `java.time` is used without desugaring, i.e. when an app's `minSdk` is 26+.
-Today I'm releasing `AndroidDateTimeFormatters` 3.0 with a new `minSdk` of 26.
+That's why today I've released `AndroidDateTimeFormatters` 3.0, with a new
+`minSdk` of 26.
 
 `AndroidDateTimeFormatters` 3.0 also enhances its behavior: The system clock
 preference is now respected not just for `FormatStyle.SHORT` times, but for
