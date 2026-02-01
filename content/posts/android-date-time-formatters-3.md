@@ -12,10 +12,10 @@ anxious, so I decided to revisit the project to see whether it needed anything
 new, or whether I could shut off Renovate for good.
 
 The Android API already provides a way to format clock times in the preferred
-style: `android.text.format.DateFormat.getTimeFormat` provides a
+style: `android.text.format.DateFormat.getTimeFormat` returns a
 `java.text.DateFormat` instance that does this. But there was no way to do it
 in modern date/time libraries like `java.time` or ThreeTenBP.
-`AndroidDateTimeFormatters` was created to fill this gap. ThreeTenBP's utility
+`AndroidDateTimeFormatters` was created to fill that gap. ThreeTenBP's utility
 on Android faded over time as [core library desugaring](https://developer.android.com/studio/write/java8-support#library-desugaring)
 took over, so the `java.time` version of `AndroidDateTimeFormatters` was the
 main remaining use case.
@@ -29,16 +29,16 @@ import or use `AndroidDateTimeFormatters`.
 
 So is there any point in using `AndroidDateTimeFormatters` anymore? As it turns
 out, there is! If an app's `minSdk` is 26 or higher, `java.time` isn't
-desugared, because it's already built included in the OS. And the version of
+desugared, because it's already included in the OS. And the version of
 `java.time` that comes preinstalled on Android 26+—unlike the desugared
 version of `java.time`—*doesn't* use the system clock style preference. It uses
-the primary locale's standard format, regardless of the user's preference, like
-the desugared version used to do back when I first published
+the formatting locale's standard preference, regardless of the user's
+preference, like the desugared version used to do back when I first published
 `AndroidDateTimeFormatters`.
 
-`AndroidDateTimeFormatters` is still useful after all, but only when
-`java.time` is used without desugaring, i.e. when an app's `minSdk` is 26+. So
-today I'm releasing `AndroidDateTimeFormatters` 3.0 with a new `minSdk` of 26.
+So `AndroidDateTimeFormatters` is still useful after all, but only when
+`java.time` is used without desugaring, i.e. when an app's `minSdk` is 26+.
+Today I'm releasing `AndroidDateTimeFormatters` 3.0 with a new `minSdk` of 26.
 
 `AndroidDateTimeFormatters` 3.0 also enhances its behavior: The system clock
 preference is now respected not just for `FormatStyle.SHORT` times, but for
